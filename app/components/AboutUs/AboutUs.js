@@ -65,8 +65,8 @@ export default function AboutUs() {
                 Make property Investing in simple, accessible and transparent
               </p>
               <p className='xl:mb-[40px] mb-[30px]'>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s&lsquo; 
                 when an unknown printer took a galley of type and scrambled it to make a type specimen book.
               </p>
               <div className='sm:flex items-start 2xl:gap-x-[200px] xl:gap-x-[100px] sm:gap-x-[30px]'>
