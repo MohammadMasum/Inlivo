@@ -8,7 +8,7 @@ import RealEstateIcon3 from "@/app/assets/images/real-estate-icon3.svg";
 export default function RealEstate() {
   return (
     <>
-    <section className='md:py-[100px] py-[40px] bg-cover bg-center' style={{ backgroundImage: `url(${RealEstateBg.src})` }}>
+    <section id="real_estate" className='md:py-[100px] py-[40px] bg-cover bg-center' style={{ backgroundImage: `url(${RealEstateBg.src})` }}>
         <div className="container">
             <div className='text-center lg:mb-[50px] mb-[30px]'>
                 <h2 className="section-title mb-[15px]">Why Invest in Real Estate?</h2>

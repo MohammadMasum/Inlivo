@@ -72,7 +72,7 @@ export default function Header() {
               <Link href="/" className="menu-link">Home</Link>
             </li>
             <li className="relative group py-[10px]">
-              <Link href="/" className="menu-link">Properties <span><FaAngleDown /></span></Link>
+              <Link href="/properties" className="menu-link">Properties <span><FaAngleDown /></span></Link>
               <ul className="dropdown">
                 <li><Link href="/" className="block py-1 transition-all duration-300 text-white hover:text-primary-color">Residential</Link></li>
                 <li><Link href="/" className="block py-1 transition-all duration-300 text-white hover:text-primary-color">Commercial</Link></li>
@@ -131,7 +131,7 @@ export default function Header() {
           </li>
           <li>
             <div className="flex justify-between items-center cursor-pointer" onClick={togglePropertiesDropdown}>
-              <Link href="/" className="menu-link">Properties <span><FaAngleDown /></span></Link>
+              <Link href="/properties" className="menu-link">Properties <span><FaAngleDown /></span></Link>
             </div>
             <ul className={`mobile-dropdown ${isPropertiesDropdownActive ? "max-h-screen" : "max-h-0"} overflow-hidden transition-max-height duration-300`}>
               <div className="h-[15px]"></div>

@@ -4,6 +4,9 @@
 
 /* group utilities  */
 @layer base {
+  * {
+    scroll-behavior: smooth;
+  }
   body {
     @apply xl:text-[18px] text-[16px] font-dm_sans font-normal leading-[1.6] text-text-color;
   }
