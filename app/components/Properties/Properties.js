@@ -131,7 +131,7 @@ export default function Properties() {
           <div className={`grid ${view === 'grid' ? 'lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-[30px]' : 'grid-cols-1 gap-[30px]'}`}>
             {data && data.map((item, index) => (
               <div key={index} className={`2xl:p-[30px] p-[24px] border border-[#D4D6DD] ${view === 'list' ? 'flex sm:gap-x-[30px] gap-x-[15px] sm:items-center' : ''}`}>
-                {item.thumbnail && ( <Image className={`w-full h-[255px] object-cover mb-[20px] ${view === 'list' ? 'w-2/5 sm:h-full h-[150px]' : ''}`} src={item.thumbnail} alt="featured properties thumb 2" />
+                {item.thumbnail && ( <Image className={`w-full h-[255px] object-cover mb-[20px] ${view === 'list' ? 'w-[40%] sm:!h-full !h-[150px]' : ''}`} src={item.thumbnail} alt="featured properties thumb 2" />
 )}
 
                 <div>
